@@ -14,4 +14,5 @@ use App\Http\Controllers\TestController;
 |
 */
 
-Route::get('/table', [TestController::class, 'view']);
+Route::get('/table', [TestController::class, 'viewTable']);
+Route::get('/form', [TestController::class, 'viewForm']);
